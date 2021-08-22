@@ -5,3 +5,35 @@
 	padding: 0;
 	text-decoration: none;
 }
+
+body {
+	background-image: radial-gradient(
+		circle at top,
+		rgba(0, 0, 0, 1),
+		rgba(50, 50, 50, 1)
+	);
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.code {
+	text-transform: uppercase;
+	font: normal normal normal 50pt/50pt "Besley Black";
+	display: flex;
+}
+
+.code-char {
+	width: 100px;
+	height: 100px;
+	border: 1px solid #FFF1;
+	background-color: rgba(255, 255, 255, .2);
+	color: #FFF7;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
