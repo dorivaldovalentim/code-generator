@@ -1,0 +1,63 @@
+/**
+ * Fonts 
+ *
+ */
+
+@font-face {
+	font-family: "Besley Black";
+	src: url(./fonts/static/Besley-Black.ttf);
+}
+
+@font-face {
+	font-family: "Besley BlackItalic";
+	src: url(./fonts/static/Besley-BlackItalic.ttf);
+}
+
+@font-face {
+	font-family: "Besley Bold";
+	src: url(./fonts/static/Besley-Bold.ttf);
+}
+
+@font-face {
+	font-family: "Besley BoldItalic";
+	src: url(./fonts/static/Besley-BoldItalic.ttf);
+}
+
+@font-face {
+	font-family: "Besley ExtraBold";
+	src: url(./fonts/static/Besley-ExtraBold.ttf);
+}        
+@font-face {
+	font-family: "Besley ExtraBoldItalic";
+	src: url(./fonts/static/Besley-ExtraBoldItalic.ttf);
+}
+
+@font-face {
+	font-family: "Besley Italic";
+	src: url(./fonts/static/Besley-Italic.ttf);
+}
+
+@font-face {
+	font-family: "Besley Medium";
+	src: url(./fonts/static/Besley-Medium.ttf);
+}
+
+@font-face {
+	font-family: "Besley MediumItalic";
+	src: url(./fonts/static/Besley-MediumItalic.ttf);
+}
+
+@font-face {
+	font-family: "Besley Regular";
+	src: url(./fonts/static/Besley-Regular.ttf);
+}
+
+@font-face {
+	font-family: "Besley SemiBold";
+	src: url(./fonts/static/Besley-SemiBold.ttf);
+}
+
+@font-face {
+	font-family: "Besley SemiBoldItalic";
+	src: url(./fonts/static/Besley-SemiBoldItalic.ttf);
+}
