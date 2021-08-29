@@ -23,17 +23,7 @@ body {
 
 .code {
 	text-transform: uppercase;
-	font: normal normal normal 50pt/50pt "Besley Black";
-	display: flex;
-}
-
-.code-char {
-	width: 100px;
-	height: 100px;
-	border: 1px solid #FFF1;
-	background-color: rgba(255, 255, 255, .2);
-	color: #FFF7;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	font: normal normal normal 70pt/70pt "Besley Black";
+	text-align: center;
+	letter-spacing: 30px;
 }
