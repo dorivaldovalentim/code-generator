@@ -7,6 +7,8 @@
 
 const coder = {
 
-	code: ''
+	code: '',
+
+	charNumber: 6
 
 };
