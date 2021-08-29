@@ -28,7 +28,7 @@ const coder = {
 			this.code = i == 1 ? this.generateChar() : this.code + this.generateChar();
 		}
 
-		console.log(this.code);
+		return this.code;
 	},
 
 };

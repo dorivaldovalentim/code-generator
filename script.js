@@ -1,6 +1,10 @@
-let i = 0;
+/**
+ * 
+ * Main JS
+ * 
+ */
 
-while(i <= 100) {
-	coder.generate();
-	i++;
-}
+var generateButton = document.querySelector('#generate-code-button');
+var codeInput = document.querySelector('#code');
+
+generateButton.addEventListener('click', () => codeInput.value = coder.generate());
