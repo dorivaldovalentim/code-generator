@@ -9,6 +9,11 @@ const coder = {
 
 	code: '',
 
+	reference: {
+		queryString: '#code',
+		target: null
+	},
+
 	charNumber: 6,
 
 	chars: [
@@ -30,5 +35,11 @@ const coder = {
 
 		return this.code;
 	},
+
+	copy: function(reference = null) {
+		this.reference.target = reference ? document.querySelector(reference) : document.querySelector(this.reference.queryString);
+
+		navigator.clipboard.writeText(this.reference.target.value);
+	}
 
 };
