@@ -20,7 +20,14 @@
 	
 	<body>
 		<div class="container">
-			<input type="text" id="code" class="code" value="XXXXXX" />
+			<div class="form-item form-input">
+				<input type="text" id="code" class="code" value="XXXXXX" disabled readonly />
+			</div>
+
+			<div class="form-item form-buttons">
+				<button class="button generate-code-button" id="generate-code-button">Gerar Código</button>
+				<button class="button copy-code-button" id="copy-code-button">Copiar Código</button>
+			</div>
 		</div>
 		
 		<!-- JS -->

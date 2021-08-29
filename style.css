@@ -16,9 +16,14 @@ body {
 
 .container {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
+}
+
+.form-item {
+	margin-bottom: 20px;
 }
 
 .code {
@@ -26,4 +31,11 @@ body {
 	font: normal normal normal 70pt/70pt "Besley Black";
 	text-align: center;
 	letter-spacing: 30px;
+	cursor: text;
+}
+
+.button {
+	padding: 20px;
+	cursor: pointer;
+	font: normal normal normal 20pt/20pt "Besley Black";
 }
