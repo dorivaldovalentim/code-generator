@@ -16,11 +16,19 @@ const coder = {
 	],
 
 	generateChar: function() {
-		console.log(this.chars[
+		return this.chars[
 			Math.floor(
 				Math.random() * this.chars.length
 			)
-		]);
-	}
+		];
+	},
+
+	generate: function () {
+		for (let i = 1; i <= this.charNumber; i++) {
+			this.code = i == 1 ? this.generateChar() : this.code + this.generateChar();
+		}
+
+		console.log(this.code);
+	},
 
 };
