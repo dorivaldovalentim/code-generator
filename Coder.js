@@ -39,7 +39,7 @@ const coder = {
 	copy: function(reference = null) {
 		this.reference.target = reference ? document.querySelector(reference) : document.querySelector(this.reference.queryString);
 
-		navigator.clipboard.writeText(this.reference.target.value);
+		navigator.clipboard.writeText(this.reference.target.value.toUpperCase());
 	}
 
 };
